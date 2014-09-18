@@ -1,0 +1,31 @@
+{
+  "author": "John Haugeland",
+  "name": "validate-email",
+  "description": "There are a lot of email validators out there; let's raise the bar a bit on quality. MIT licensed.",
+  "version": "0.0.1",
+  "repository": {
+    "url": "https://github.com/StoneCypher/node-validate-email.git"
+  },
+  "keywords": [
+    "test",
+    "testing",
+    "validate",
+    "validation",
+    "email",
+    "mail",
+    "address",
+    "check"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "vows": "*",
+    "testdata-valid-email": "*"
+  },
+  "main": "node-validate-email.js",
+  "engines": {
+    "node": "*"
+  },
+  "scripts": {
+    "test": "vows test/* --spec"
+  }
+}
