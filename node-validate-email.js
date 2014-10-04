@@ -1,5 +1,10 @@
 
 // Now tied for best, soon to be best-er
+// TODO: new and international TLDs
+// TODO: negative TLD tests
+// TODO: punycode IDN
+// TODO: resolved IDN
+// TODO: length limits
 // https://www.npmjs.org/package/validate-email-shootout
 
 function is_email(addr) {
