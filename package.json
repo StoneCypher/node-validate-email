@@ -19,6 +19,7 @@
   "dependencies": {},
   "devDependencies": {
     "vows": "*",
+    "eslint": "*",
     "testdata-valid-email": "*"
   },
   "main": "node-validate-email.js",
