@@ -1,4 +1,6 @@
 
+/* jshint node: true */
+/* eslint max-len: 0 */
 /* eslint-env node */
 
 "use strict";
