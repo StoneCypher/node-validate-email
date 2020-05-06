@@ -23,13 +23,17 @@
     "testdata-valid-email": "*"
   },
   "dependencies": {
-    "sc-eslint": "*"
+    "sc-eslint": "*",
+    "snyk": "^1.319.0"
   },
   "main": "node-validate-email.js",
   "engines": {
     "node": "*"
   },
   "scripts": {
-    "test": "vows test/* --spec"
-  }
+    "test": "vows test/* --spec",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
